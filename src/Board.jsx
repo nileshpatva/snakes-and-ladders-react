@@ -101,7 +101,6 @@ const Board = ({ snakes, ladders, rows = 10, cols = 10 }) => {
           </div>
         ))}
       </div>
-      {/* <p>Player Position: {playerPosition}</p> */}
     </>
   );
 };
