@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.tile {
+  border: 1px solid #000;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.snake {
+  background-color: #d9534f;
+}
+
+.ladder {
+  background-color: #5cb85c;
+}
+
+.player-circle {
+  min-width: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px;
+  background-color: sandybrown;
+  border-radius: 50%;
+  border: 2px dashed;
+}
+.next {
+  font-size: 8px;
+  /* transform: scale(55%); */
+  background-color: lightgray;
+  padding: 4px;
+  border-radius: 12px;
+}
